@@ -2,13 +2,23 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import UpperNavbar from './components/upperNavbar'
+import Home from './home'
+import Services from './services'
+import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>This is my first App in React</h1>
+      <div className=''>
+        <UpperNavbar />
+        <Home />
+        <Services />
+        <Footer/>
+
+
+      </div>
     </>
   )
 }
