@@ -6,19 +6,19 @@ import UpperNavbar from './components/upperNavbar'
 import Home from './home'
 import Services from './services'
 import Footer from './components/Footer'
+import Product from './Product'
 
 function App() {
 
   return (
     <>
-      <div className=''>
+    <Product/>
+      {/* <div className=''>
         <UpperNavbar />
         <Home />
         <Services />
         <Footer/>
-
-
-      </div>
+      </div> */}
     </>
   )
 }
