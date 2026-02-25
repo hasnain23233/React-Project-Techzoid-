@@ -7,18 +7,20 @@ import Home from './home'
 import Services from './services'
 import Footer from './components/Footer'
 import Product from './Product'
+import EvenHandling from './evenHandling'
 
 function App() {
 
   return (
     <>
-    <Product/>
+    {/* <Product/> */}
       {/* <div className=''>
         <UpperNavbar />
         <Home />
         <Services />
         <Footer/>
       </div> */}
+      <EvenHandling/>
     </>
   )
 }
