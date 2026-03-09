@@ -8,6 +8,7 @@ import Services from './services'
 import Footer from './components/Footer'
 import Product from './Product'
 import EvenHandling from './evenHandling'
+import Student from './Student'
 
 function App() {
 
@@ -20,7 +21,10 @@ function App() {
         <Services />
         <Footer/>
       </div> */}
-      <EvenHandling/>
+      {/* <EvenHandling/> */}
+      <Student name = "Ali" id = {30}  course = "Web Development"/> <br />
+      <Student name = "Rohail" id = {30}  course = "Web Development"/> <br />
+      <Student name = "Data" id = {30}  course = "Web Development"/>
     </>
   )
 }
