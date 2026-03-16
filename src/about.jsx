@@ -1,13 +1,13 @@
 import React from 'react'
 
-const home = () => {
+const about = () => {
   return (
     <div>
       <div className='h-screen flex items-center justify-center'>
-            <h1>This is a home page of the website</h1>
+            <h1>This is a About page of the website</h1>
       </div>
     </div>
   )
 }
 
-export default home
+export default about
